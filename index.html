@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Конвертер+</title>
+    <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="Body">
+        <img id="cov" src="img/Cvr5.png" alt="">
+        <h1>Конвертер+</h1>
+        <div class="Hd">
+            <div class="Logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="Info">
+                <h4><u>Поддерживаемые ОС:</u> Windows 7, Windows Vista, Windows 8, Windows 10, Windows 11</h4>
+                <h4><u>Разрядность:</u> 64 bit</h4>
+                <h4><u>Процессор:</u> Intel Atom® 1,30 GHz</h4>
+                <h4><u>Оперативная память:</u> 512 Мб</h4>
+                <h4><u>Жесткий диск:</u> 1 Гб</h4>
+                <h4><u>Язык интерфейса:</u> Русский</h4>
+                <h4><u>Разработчик:</u> Nalivayko D.D.</h4>
+                <h4><u>Текущая версия:</u> 1.0.0</h4>
+                <h4><u>Обновлено:</u> 22.11.2022</h4>
+            </div>
+        </div>
+        <div class="Des">
+            <h1>Описание</h1>
+            <p>
+                В настоящее время путешествия в другие страны пользуются большим спросом. В большинстве стран
+                используется своя валюта, курс которой ежедневно меняется под влиянием множества факторов.
+                Следовательно, человек, который планирует посетить другую страну, должен быть осведомлён об актуальном
+                курсе валюты другой страны. Программа «Конвертер+» позволит отслеживать курсы иностранных валют в
+                настоящем времени, а также упростит перевод из одной валюты в другую.
+            </p>
+            <h1>Скриншоты</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img id="Img1" src="img/1.png" class="i1" style="width:40%">
+                </div>
+                <div class="mySlides fade">
+                    <img id="Img2" src="img/3.png" class="i3" style="width:40%">
+                </div>
+                <div class="mySlides fade">
+                    <img id="Img3" src="img/2.png" class="i2" style="width:80%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!-- <div class="Img">
+                <img id="Img1" src="img/1.png" class="i1">
+                <img id="Img2" src="img/3.png" class="i3">
+                <img id="Img3" src="img/2.png" class="i2">
+            </div> -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="ImgCont">
+                <div id="caption"></div>
+            </div>
+            <div id="myMod" class="mod">
+                <span class="clos">&times;</span>
+                <img class="modal-con" id="ImgCon">
+                <div id="capt"></div>
+            </div>
+        </div>
+        <div class="Docs">
+            <h1>Подробнее</h1>
+            <p class="More">Для получения более подробной информации можете ознакомиться со следующими документами:</p>
+            <table class="Download">
+                <tr>
+                    <td>Лицензионное соглашение</td>
+                    <td class="Click"><a href="docs/ЛС Наливайко БИ-31.docx" download>Скачать</a></td>
+                </tr>
+                <tr>
+                    <td>Руководство пользования</td>
+                    <td class="Click"><a href="docs/Руководство Пользования Наливайко БИ-31.docx" download>Скачать</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Техническое задание</td>
+                    <td class="Click"><a href="docs/ТЗ Наливайко БИ-31.docx" download>Скачать</a></td>
+                </tr>
+                <tr>
+                    <td>Подготовка к тиражированию</td>
+                    <td class="Click"><a href="docs/Подготовка к тиражированию.docx" download>Скачать</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="Down">
+            <h1>Скачать «Конвертер+»</h1>
+            <a href="setup/Setup.exe" download><button>
+                    «Конвертер+» 1.0.0.
+                    <u class="date">22.11.2022</u>
+                    <u class="dow">Скачать</u>
+                </button></a>
+        </div>
+    </div>
+</body>
+<script src="./script.js">
+</script>
+
+</html>
